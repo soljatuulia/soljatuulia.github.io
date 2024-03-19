@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.singlePhoto {
+  width: 100%;
+  height: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .singlePhoto {
+    max-width: 100%;
+  }
+}
+
+.title {
+  text-transform: capitalize;
+  max-width: rem(600px);
+}

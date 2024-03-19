@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 0rem;
+    flex-direction: column-reverse;
+  }
+}
+
+.title {
+  margin-top: 2rem;
+}
+
+.albums {
+  padding-right: 2rem;
+}

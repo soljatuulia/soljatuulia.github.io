@@ -1,0 +1,13 @@
+.container {
+  margin-top: 1rem;
+  padding: 1.5rem;
+  color: white;
+  background: linear-gradient(to right, purple, blue);
+  border-radius: rem(10px);
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+}
